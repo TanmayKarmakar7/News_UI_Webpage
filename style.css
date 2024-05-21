@@ -48,6 +48,17 @@ a{
     gap: 1.5rem;
     grid-template-columns: repeat(auto-fit,minmax(260px,375px));
 }
+@media screen and (width < 500px) {
+    .header-title{
+        font-size: 1.8rem;
+    }
+    .header-container img{
+        height: 35px;
+    }
+    .headline h1{
+        font-size: 18px;
+    }
+}
 @media (max-width:345px){
     .box-container{
         height: 540px;
