@@ -55,9 +55,6 @@ a{
     .header-container img{
         height: 35px;
     }
-    .headline h1{
-        font-size: 18px;
-    }
 }
 @media (max-width:345px){
     .box-container{
