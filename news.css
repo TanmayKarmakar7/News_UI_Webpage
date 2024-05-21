@@ -19,10 +19,19 @@ body{
 }
 .header-title{
     color: white;
-    font-size: 1.8rem;
-    line-height: 2rem;
+    font-size: 2.2rem;
+    line-height: 1.5rem;
     font-weight: 700;
     text-align: center;
+}
+.brand-name{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.header-container img{
+    height: 45px;
 }
 
 /* main content*/
@@ -54,7 +63,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
     padding-top: 20px;
 }
 .return-btn button{
@@ -97,6 +106,12 @@ body{
     }
 }
 @media screen and (width < 500px) {
+    .header-title{
+        font-size: 1.8rem;
+    }
+    .header-container img{
+        height: 35px;
+    }
     .headline h1{
         font-size: 18px;
     }
