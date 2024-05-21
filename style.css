@@ -48,25 +48,6 @@ a{
     gap: 1.5rem;
     grid-template-columns: repeat(auto-fit,minmax(260px,375px));
 }
-@media screen and (width < 500px) {
-    .header-title{
-        font-size: 1.8rem;
-    }
-    .header-container img{
-        height: 35px;
-    }
-}
-@media (max-width:345px){
-    .box-container{
-        height: 540px;
-    }
-    .box-footer{
-        justify-content: center;align-items: center;
-        flex-direction: column;
-        gap: 7px;
-        padding-top: 10px;
-    }
-}
 
 .box-container{
     overflow: hidden;
@@ -160,3 +141,22 @@ a{
     margin-right: 20px;
 }
 
+@media screen and (width < 500px) {
+    .header-title{
+        font-size: 1.7rem;
+    }
+    .header-container img{
+        height: 35px;
+    }
+}
+@media (max-width:345px){
+    .box-container{
+        height: 540px;
+    }
+    .box-footer{
+        justify-content: center;align-items: center;
+        flex-direction: column;
+        gap: 7px;
+        padding-top: 10px;
+    }
+}
