@@ -1,3 +1,3 @@
-# News Website
+# News UI Webpage
 
-This is a multipage news website made with html & css.
+This is a multipage news UI design made with html & css.
